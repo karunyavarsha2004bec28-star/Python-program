@@ -1,0 +1,6 @@
+ p=int(input("enter p:"))
+   t=int(input("enter t:"))
+   r=int(input("enter r:"))
+   SI=(p*t*r)/100
+   CI=p*(1+r/100)*(t-p)*(t-p)
+   print("the simple and compound interests are:",SI,CI)                               
